@@ -169,7 +169,7 @@ static NSString *kListCollectionViewCellKey = @"kListCollectionViewCellKey";
         _listData = @[
             @{kCellTitle : @"每日一言",     kCellCode : @(HOME_OneWord)},
             @{kCellTitle : @"刷新Widget",  kCellCode : @(HOME_RefreshWidget)},
-            @{kCellTitle : @"自定义选择",   kCellCode : @(HOME_Select)},
+            @{kCellTitle : @"选择列表展示:",   kCellCode : @(HOME_Select)},
         ];
     }
     return _listData;

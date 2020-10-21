@@ -106,21 +106,24 @@ static NSString *kListCollectionViewCellKey = @"kListCollectionViewCellKey";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    NSDictionary *dict = self.listData[indexPath.item];
-    NSNumber *number = [dict objectForKey:kCellCode];
     
-    switch ([number integerValue]) {
-        case HOME_OneWord:
-            [self getOneText];
-            break;
-        case HOME_RefreshWidget:
-            [self clickWidget];
-            break;
-        case HOME_Select:
-            
-            break;
-        default:
-            break;
+    if (indexPath.section == 0) {
+        NSDictionary *dict = self.listData[indexPath.item];
+        NSNumber *number = [dict objectForKey:kCellCode];
+        
+        switch ([number integerValue]) {
+            case HOME_OneWord:
+                [self getOneText];
+                break;
+            case HOME_RefreshWidget:
+                [self clickWidget];
+                break;
+            case HOME_Select:
+                
+                break;
+            default:
+                break;
+        }
     }
 }
 

@@ -10,7 +10,6 @@
 		0DECE3405B91739EE1717046 /* libPods-ZJWidPackExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F737482C4B93379A411D82 /* libPods-ZJWidPackExtension.a */; };
 		96B34FFEDA7AD5F69B050774 /* libPods-ZuJian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A88494772A053B59F859D5 /* libPods-ZuJian.a */; };
 		BC367EB0253D3947005FAE3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC367EAF253D3947005FAE3D /* AppDelegate.m */; };
-		BC367EB3253D3947005FAE3D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC367EB2253D3947005FAE3D /* SceneDelegate.m */; };
 		BC367EB6253D3947005FAE3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC367EB5253D3947005FAE3D /* ViewController.m */; };
 		BC367EB9253D3947005FAE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC367EB7253D3947005FAE3D /* Main.storyboard */; };
 		BC367EBB253D394E005FAE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC367EBA253D394E005FAE3D /* Assets.xcassets */; };
@@ -33,6 +32,7 @@
 		BC8350AE253FFB36000E04D8 /* RefreshTag.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = BC8350AD253FFB36000E04D8 /* RefreshTag.intentdefinition */; };
 		BC8350C525400796000E04D8 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8350C425400796000E04D8 /* WidgetManager.swift */; };
 		BC8350CD254026CE000E04D8 /* ListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8350CC254026CE000E04D8 /* ListCollectionViewCell.m */; };
+		BC8351B3254177EC000E04D8 /* timg.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC8351B2254177EC000E04D8 /* timg.gif */; };
 		BCD01112253D85C500ED3F70 /* OneWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD01111253D85C500ED3F70 /* OneWordModel.m */; };
 		BCD01113253D85C500ED3F70 /* OneWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD01111253D85C500ED3F70 /* OneWordModel.m */; };
 		BCD0112E253D8C6F00ED3F70 /* OneContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD0112D253D8C6F00ED3F70 /* OneContentView.m */; };
@@ -108,8 +108,6 @@
 		BC367EAB253D3947005FAE3D /* ZuJian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuJian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC367EAE253D3947005FAE3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC367EAF253D3947005FAE3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC367EB1253D3947005FAE3D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BC367EB2253D3947005FAE3D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		BC367EB4253D3947005FAE3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC367EB5253D3947005FAE3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC367EB8253D3947005FAE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +137,7 @@
 		BC8350C425400796000E04D8 /* WidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetManager.swift; sourceTree = "<group>"; };
 		BC8350CB254026CE000E04D8 /* ListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCollectionViewCell.h; sourceTree = "<group>"; };
 		BC8350CC254026CE000E04D8 /* ListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCollectionViewCell.m; sourceTree = "<group>"; };
+		BC8351B2254177EC000E04D8 /* timg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timg.gif; sourceTree = "<group>"; };
 		BCD01110253D85C500ED3F70 /* OneWordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneWordModel.h; sourceTree = "<group>"; };
 		BCD01111253D85C500ED3F70 /* OneWordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneWordModel.m; sourceTree = "<group>"; };
 		BCD01120253D86AC00ED3F70 /* ZJWidPackExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJWidPackExtension-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -256,8 +255,6 @@
 				BC367FAD253D77C7005FAE3D /* Model */,
 				BC367EAE253D3947005FAE3D /* AppDelegate.h */,
 				BC367EAF253D3947005FAE3D /* AppDelegate.m */,
-				BC367EB1253D3947005FAE3D /* SceneDelegate.h */,
-				BC367EB2253D3947005FAE3D /* SceneDelegate.m */,
 				BC367EB4253D3947005FAE3D /* ViewController.h */,
 				BC367EB5253D3947005FAE3D /* ViewController.m */,
 				BC8350CB254026CE000E04D8 /* ListCollectionViewCell.h */,
@@ -310,6 +307,7 @@
 				BC367F32253D5B7B005FAE3D /* Intent */,
 				BC367F33253D5B7B005FAE3D /* Widget */,
 				BC367EF1253D39A9005FAE3D /* ZJWidPack.swift */,
+				BC8351B2254177EC000E04D8 /* timg.gif */,
 				BC367EF3253D39A9005FAE3D /* ZJWidPack.intentdefinition */,
 				BC367EF4253D39AF005FAE3D /* Assets.xcassets */,
 				BC367EF6253D39AF005FAE3D /* Info.plist */,
@@ -563,6 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC367EF5253D39AF005FAE3D /* Assets.xcassets in Resources */,
+				BC8351B3254177EC000E04D8 /* timg.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,7 +637,6 @@
 				BCD012CA253EC17500ED3F70 /* ButtonModel.m in Sources */,
 				BC8350C525400796000E04D8 /* WidgetManager.swift in Sources */,
 				BC367EF8253D39AF005FAE3D /* ZJWidPack.intentdefinition in Sources */,
-				BC367EB3253D3947005FAE3D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

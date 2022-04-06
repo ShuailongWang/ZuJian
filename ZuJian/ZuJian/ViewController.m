@@ -4,9 +4,6 @@
 //
 //  Created by wangshuailong on 2020/10/19.
 //
-//  11
-//  22
-//  33
 
 #import "ViewController.h"
 #import "OneWordModel.h"
